@@ -1,0 +1,129 @@
+/*navbar*/
+
+.big-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../images/header/header-bg.png") no-repeat;
+    background-size:100% auto;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-clean {
+    background: none;
+    border: none;
+    top: 50px;
+}
+
+.logo-webgaff {
+    margin-top: -15px;
+}
+
+.logo-webgaff {
+    margin-top: -15px;
+}
+
+
+.webgaff-deafult-font {
+
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+.navbar-toggle {
+    margin-top: 5px;
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background: none;
+}
+
+/*search bar*/
+
+.search-webgaff, .search-webgaff-input, .search-webgaff-button {
+    background: none;
+    border: none;
+    height: 40px;
+}
+
+.search-webgaff {
+    top: -8px;
+    background: rgba(119,147,165,1);
+    background: -moz-linear-gradient(left, rgba(119,147,165,1) 0%, rgba(164,183,194,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(119,147,165,1)), color-stop(100%, rgba(164,183,194,1)));
+    background: -webkit-linear-gradient(left, rgba(119,147,165,1) 0%, rgba(164,183,194,1) 100%);
+    background: -o-linear-gradient(left, rgba(119,147,165,1) 0%, rgba(164,183,194,1) 100%);
+    background: -ms-linear-gradient(left, rgba(119,147,165,1) 0%, rgba(164,183,194,1) 100%);
+    background: linear-gradient(to right, rgba(119,147,165,1) 0%, rgba(164,183,194,1) 100%);
+    border-radius: 5px;
+    padding: 3px;
+
+}
+
+.search-webgaff-input, .search-webgaff-button {
+    box-shadow: none;
+    border: none;
+    outline: none;
+    background: #8599A4;
+    color: white;
+}
+
+.search-webgaff-input:focus {
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+.search-webgaff-input::-moz-placeholder {
+    color: #fff;
+}
+.search-webgaff-input:-ms-input-placeholder {
+    color: #fff;
+}
+.search-webgaff-input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.search-webgaff-button {
+    color: white;
+    font-size: 18px;
+}
+
+
+/*angular search*/
+
+.background-green {
+    background-color: green;
+    color: white;
+}
+
+.background-white {
+    background-color: white;
+}
+
+.minisearch {
+    position: relative;
+}
+
+.minisearch ul.results {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+/*END of angular search*/
+
+/*END of navbar*/

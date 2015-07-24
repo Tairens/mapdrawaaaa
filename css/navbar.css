@@ -1,0 +1,123 @@
+@media (min-width: 768px) {
+
+    .navbar-header,
+    .navbar-nav li a {
+        line-height: 130px;
+        position: relative;
+        height: 130px;
+        padding-top: 20px;
+        margin: 0;
+    }
+
+}
+
+
+/*text hover color*/
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #000;
+}
+
+/*active element*/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >
+a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #E75A29;
+    background-color: #EBEBEB;
+}
+
+/*inactive element*/
+.navbar-default {
+    background-color: #E75A29;
+    border: none;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #E75A29;
+}
+
+.navbar-brand {
+    margin-top: 25px;
+}
+
+@media (max-width: 767px) {
+
+    .navbar-brand {
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+
+}
+
+.navbar-toggle {
+    margin-top: 20px;
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background: none;
+}
+
+.search-form {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+
+}
+
+.search-bar {
+    width: 250px;
+    height: 35px;
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.search-bar > .form-control, .search-bar > .btn-search {
+    border: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+    background: none;
+    color: #fff;
+    padding: 0;
+}
+
+.search-bar > .btn-search {
+    margin-top: 1px;
+    position: relative;
+    top: -32px;
+    float: right;
+    width: 25px;
+    right: 0;
+
+}
+
+@media (max-width: 991px) {
+
+    .search-form {
+        display: none;
+    }
+
+}
+
+.form-control {
+    width: 20px;
+}
+
+
+.divider-vertical {
+    height: 15px;
+    margin-top: 78px;
+    border-left: 1px solid #F2F2F2;
+    display: none;
+}
+

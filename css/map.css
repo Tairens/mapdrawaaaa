@@ -1,0 +1,113 @@
+#map-canvas{
+    min-height: 670px;
+    margin-bottom: 30px;
+}
+
+.template{
+    display: none;
+}
+
+.popupWindowContainer{
+    width: 300px;
+    height: 150px;
+    background-size: 300px 150px;
+}
+
+.rightMenuElement{
+    height: 125px;
+    width: 120%;
+    clear: both;
+    margin-bottom: 30px;
+    border: 3px solid #ff0000;
+    padding: 5px;
+}
+
+.rightMenuImage{
+    float: left;
+    width: 120px;
+    height: 100%;
+}
+
+.rightMenuImage > img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.zoomClass{
+    width: 48px;
+    float: left;
+    background-color: rgba(232, 91, 41, .7);
+    cursor: pointer;
+    margin-top: 22px;
+    margin-left:10px;
+    text-align:center;
+    border: 2px solid #ff0000;
+}
+
+.aerialClass{
+    float: left;
+    background-color: rgba(232, 91, 41, .7);
+    cursor: pointer;
+    margin-top: 22px;
+    margin-left:10px;
+    text-align:center;
+    border: 2px solid #ff0000;
+}
+
+.rentalsClass{
+    text-align: center;
+    border: 2px solid #ff0000;
+    top: 0px;
+    position: absolute;
+    right: 0px;
+    background-color: rgba(232, 91, 41, .7);
+    z-index: 10000;
+    padding: 10px;
+    display: none;
+}
+
+.gmnoprint iframe{
+    display: none !important;
+}
+.zoomTextClass{
+    color: white;
+    font-size: 36px;
+    padding: 3px;
+    line-height: 38px;
+}
+
+.aerialTextClass{
+    color: white;
+    font-size: 22px;
+    padding: 3px;
+    line-height: 38px;
+}
+
+.rightMenuText{
+    float: left;
+}
+
+.rightColumnContainer{
+    position: relative;
+}
+
+.preloader{
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.preloader img{
+    position: relative;
+    top: 250px;
+}
+
+.active{
+    background-color: rgba(232, 91, 41, .7);
+    color: white;
+}

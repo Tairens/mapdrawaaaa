@@ -1,0 +1,481 @@
+body {
+    padding-top: 50px;
+    font-family: "AvenirNextLTPro-UltLt", "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
+}
+
+/*thumbnails*/
+
+.thumbnail {
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    background: #f8f8f8;
+    border-radius: 0 !important;
+
+}
+
+.thumbnail > footer {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.thumbnail > footer h2 {
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0;
+    font-weight: normal;
+
+}
+
+.thumbnail > footer h2 > a {
+    color: #e85b29;
+}
+
+.thumbnail > .circle {
+    position: absolute;
+    right: 10px;
+    bottom: 40px;
+    background-color: #e85b29;
+    width: 60px;
+    height: 60px;
+    border: 3px solid white;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.fa-camera {
+    font-size: 24px;
+    color: #fff;
+    position: relative;
+    margin-top: 50%;
+    top: -12px;
+}
+
+.property-info > .price {
+    font-size: 12px;
+    float: right;
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+}
+
+.property-info > .title {
+    font-size: 12px;
+    overflow: hidden;
+    display: block;
+    color: #858F9F;
+    font-weight: 300;
+    margin: 0;
+}
+
+/*ribbons*/
+
+.ribbon {
+    position: absolute;
+    left: 10px;
+    top: -5px;
+    height: 90px;
+    width: 90px;
+    z-index: 3;
+    overflow: visible;
+    background: url(../images/img/property-thumbnail/property-ribbon.png);
+}
+
+.ribbon-viewing-advised {
+    background-position: 0 0;
+}
+
+.ribbon-investors {
+    background-position: -90px 0;
+}
+
+.ribbon-reduced-rates {
+    background-position: -180px 0;
+}
+
+.ribbon-prime-location {
+    background-position: -270px 0;
+}
+
+.ribbon-going-concern {
+    background-position: -360px 0;
+}
+
+.ribbon-parking-included {
+    background-position: -450px 0;
+}
+
+.ribbon-stunning-view { 
+	background-position: -540px 0;
+	}
+
+.ribbon-great-value { 
+	background-position: -630px 0;
+	}
+
+.ribbon-close-to-airport { 
+	background-position: -720px 0;
+	}
+
+.ribbon-close-to-beach { 
+	background-position: 0 -90px;
+	}
+
+.ribbon-group-friendly { 
+	background-position: -90px -90px;
+	}
+
+.ribbon-reduced-price { 
+	background-position: -180px -90px;
+	}
+
+.ribbon-great-location { 
+	background-position: -270px -90px;
+	}
+	
+.ribbon-popular-location { 
+	background-position: -360px -90px;
+	}
+
+.ribbon-last-few-units { 
+	background-position: -450px -90px;
+	}
+	
+.ribbon-open-viewing { 
+	background-position: -540px -90px;
+	}
+
+.ribbon-balcony { 
+	background-position: -630px -90px;
+	}
+
+.ribbon-easy-commute { 
+	background-position: -720px -90px;
+	}
+
+.ribbon-great-amenities { 
+	background-position: 0 -180px;
+	}
+
+.ribbon-secure-parking { 
+	background-position: -90 -180px;
+	}
+
+.ribbon-24-hour-access { 
+	background-position: -180px -180px;
+	}
+
+.ribbon-pay-monthly { 
+	background-position: -270px -180px;
+	}
+
+.ribbon-central-location { 
+	background-position: -360px -180px;
+	}
+
+.ribbon-bus-route { 
+	background-position: -450px -180px;
+	}
+
+.ribbon-luas-dart { 
+	background-position: -540px -180px;
+	}
+
+.ribbon-short-let { 
+	background-position: -630px -180px;
+	}
+
+.ribbon-pet-friendly { 
+	background-position: 0 -270px;
+	}
+
+.ribbon-auction { 
+	background-position: -90px -270px;
+	}
+
+.ribbon-spacious-garden { 
+	background-position: -180px -270px;
+	}
+
+.ribbon-corp-let { 
+	background-position: -270px -270px;
+	}
+
+.ribbon-student-friendly { 
+	background-position: -360px -270px;
+	}
+
+.ribbon-ensuite { 
+	background-position: -450px -270px;
+	}
+
+.ribbon-parking { 
+	background-position: -540px -270px;
+	}
+
+.ribbon-rates-comp { 
+	background-position: -630px -270px;
+	}
+
+.ribbon-serviced-apt { 
+	background-position: -720px -270px;
+	}
+
+.ribbon-school-nearby { 
+	background-position: 0 -360px;
+	}
+
+.ribbon-rural-location { 
+	background-position: -90px -360px;
+	}
+
+.ribbon-south-facing { 
+	background-position: -180px -360px;
+	}
+
+.ribbon-energy-efficient { 
+	background-position: -270px -360px;
+	}
+
+.ribbon-luxury-let { 
+	background-position: -360px -360px;
+	}
+
+.ribbon-alarm-system { 
+	background-position: -450px -360px;
+	}
+
+.ribbon-gym-nearby { 
+	background-position: -630px -360px;
+	}
+
+.ribbon-fully-fitted { 
+	background-position: -720px -360px;
+	}
+
+.ribbon-business-park { 
+	background-position: 0 -450px;
+	}
+
+.ribbon-creche { 
+	background-position: -90 -450px;
+	}
+
+.ribbon-hotel- { 
+	background-position: -180px -450px;
+	}
+
+.ribbon-farm { 
+	background-position: -270px -450px;
+	}
+
+.ribbon-transport-links { 
+	background-position: -360px -450px;
+	}
+
+.ribbon-internet { 
+	background-position: -450px -450px;
+	}
+
+.ribbon-time-share { 
+	background-position: -540px -450px;
+	}
+
+.ribbon-beach-location { 
+	background-position: -630px -450px;
+	}
+
+.ribbon-security { 
+	background-position: -720px -450px;
+	}
+
+.ribbon-family-friendly { 
+	background-position: 0 -540px;
+	}
+	
+.ribbon-serviced { 
+	background-position: -90 -540px;
+	}
+
+.ribbon-golf-nearby { 
+	background-position: -180px -540px;
+	}
+
+.ribbon-city-center { 
+	background-position: -270px -540px;
+	}
+
+.ribbon-town-center { 
+	background-position: -360px -540px;
+	}
+
+.ribbon-pay-weekly { 
+	background-position: -450px -540px;
+	}
+
+.ribbon-cctv { 
+	background-position: -540px -540px;
+	}
+	
+.ribbon-gated { 
+	background-position: -630px -540px;
+	}
+	
+.ribbon-weekend-rates { 
+	background-position: -720px -540px;
+	}
+
+/*captions*/
+.caption {
+    text-align: center;
+    position:absolute;
+    background:rgba(0, 0, 0, 0.70);
+    width:100%;
+    height:100%;
+    display: none;
+    color:#fff !important;
+    z-index:2;
+}
+
+.caption-wrapper {
+    height:100%;
+    width:100%;
+    margin: 0;
+    padding:5%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+.cap-adress {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.cap-state {
+    margin-top: 10%;
+    margin-bottom: 2%;
+    line-height: 10px;
+    font-size: 12px;
+}
+
+.cap-rooms {
+    font-weight: bold;
+    color: #e85b29;
+    font-size: 12px;
+}
+
+.cap-facilities {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+
+    .cap-state , .cap-rooms, .cap-facilities {
+        display: none;
+    }
+
+}
+
+.btn-view {
+    color: #fff;
+    background-color: #e85b29;
+    font-weight: bold;
+    border-radius: 0;
+    border: none;
+    margin-top: 5%;
+}
+.btn-view:hover,
+.btn-view:focus,
+.btn-view.focus,
+.btn-view:active,
+.btn-view.active,
+.open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #e0440e;
+}
+
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item {
+    background-color: tomato;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+/*image slider*/
+
+.carousel-control {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 100px;
+    background: none;
+    display: none;
+    opacity: 1;
+}
+
+.property-picture {
+    margin: auto;
+}
+
+img.property-picture {
+  width: 100%;
+  height: 100%;
+  max-height: 260px;
+  min-height: 260px;
+  background-color: #e85b29;
+}
+
+
+
+.control-right {
+    width: 100%;
+    height: 100%;
+    background: url(../images/img/property-thumbnail/slider-controlls.png);
+}
+
+.control-right:hover {
+    background-position: -40px 0;
+}
+
+.control-left {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    width: 100%;
+    height: 100%;
+    background: url(../images/img/property-thumbnail/slider-controlls.png);
+}
+
+.control-left:hover {
+    background-position: -40px 0;
+}

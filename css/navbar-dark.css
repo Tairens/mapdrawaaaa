@@ -1,0 +1,141 @@
+body {
+    font-family: "Helvetica Neue", Helvetica;
+}
+
+@media (min-width: 768px) {
+
+    .navbar-header,
+    .navbar-nav li a {
+        line-height: 130px;
+        position: relative;
+        height: 130px;
+        padding-top: 20px;
+        margin: 0;
+    }
+
+}
+
+
+/*text hover color*/
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #000;
+}
+
+/*active element*/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >
+a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #E75A29;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/*inactive element*/
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #E75A29;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    margin-top: 25px;
+}
+
+@media (max-width: 767px) {
+
+    .navbar-brand {
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+
+}
+
+.navbar-toggle {
+    margin-top: 20px;
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background: none;
+}
+
+.search-form {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -8px;
+}
+
+.search-bar {
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: auto;
+    padding: 0;
+}
+
+.search-bar > .form-control, .search-bar > .btn-search {
+    border: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+    background: none;
+    color: #fff;
+    padding: 0;
+
+}
+
+.search-bar > .btn-search {
+    position: relative;
+    top: -32px;
+    right: 2px;
+    float: right;
+    width: 25px;
+}
+
+@media (max-width: 991px) {
+
+    .search-form {
+        display: none;
+    }
+
+}
+
+.form-control {
+    border: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.form-control:focus {
+    background: #fff;
+    border: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #000;
+    padding: 10px;
+    margin: 0;
+}
+
+.divider-vertical {
+    height: 15px;
+    margin-top: 78px;
+    border-left: 1px solid #E75A29;
+    display: none;
+}
+

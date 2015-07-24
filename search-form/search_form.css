@@ -1,0 +1,336 @@
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+         color: #FFF;
+         background-color: #8E44AD;
+         border-color: #8E44AD;
+         }
+         .text-primary {
+         color: #8E44AD;
+         }
+         a.text-primary:hover, a.text-primary:hover, a.text-primary:focus, a.text-primary:active {
+         color: #8E44AD;
+         }
+         /** Navbar form **/
+         .navbar {
+         margin-bottom: 0px;
+         }
+         .navbar-default {
+         background-color: #8E44AD;
+         border-color: #8E44AD;
+         }
+         .navbar-default .navbar-nav > li > a {
+         color: #ffffff;
+         }
+         .navbar-default .navbar-nav > li > a:hover {
+         color: #8E44AD;
+         background-color: #ffffff;
+         }
+         .navbar-default .navbar-toggle {
+         background-color: #ffffff;
+         border-color: #ffffff;
+         }
+         .navbar-default .navbar-toggle:hover {
+         background-color: #ffffff;
+         border-color: #ffffff;
+         }
+         .navbar-default .navbar-toggle:focus {
+         background-color: #ffffff;
+         border-color: #ffffff;
+         }
+         .navbar-default .navbar-toggle, .navbar-default .navbar-toggle {
+         background-color: #ffffff;
+         border-color: #ffffff;
+         }
+         .navbar-default .navbar-toggle .icon-bar {
+         background-color: #8E44AD;
+         }
+         .navbar-default .navbar-collapse{
+         border-color:#8E44AD;
+         }
+         /** Navbar form **/
+         .navbar-default .navbar-form {
+         border-color: #ffffff;
+         }
+         .navbar-default .navbar-form {
+         border-color: #ffffff;
+         }
+         /* paginator */
+         .pagination-centered {
+         text-align: center;
+         }
+         #modal-content {
+         width: 1200px;
+         margin-left: -300px;
+         }
+         /** support-header **/
+         .support-header {
+         padding: 100px 0px 100px 0px;
+         min-height: 400px;
+         margin: 0 auto; 
+         width: 100%;
+         background: 50% 50% no-repeat;
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+         background-image: url(https://s3-eu-west-1.amazonaws.com/orange-digital-labs/static/images/background/backgrounds/23.jpg);
+         }
+         .support-header h1.section-title {
+         color: #FFF;
+         }
+         .sub-menu ul a {
+         color: #ADADAD;
+         font-size: 12px;
+         text-transform: uppercase;
+         text-align: center;
+         border-right: 1px solid #E3E3E3;
+         border-left: 1px solid #E3E3E3;
+         border-bottom: 1px solid #E3E3E3;
+         transition: all 0.2s ease-in-out 0s;
+         }
+         .sub-menu ul a:hover, .sub-menu ul a.active {
+         color: #2D2D2D;
+         box-shadow: 0px -2px 0px #3381B7 inset;
+         }
+         /** form panel **/
+         .form-panel {
+         background-color: rgba(0, 0, 0, 0.0001) !important;
+         border: 0px none;
+         box-shadow: none;
+         }
+         .nav-tabs, .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus {
+         background-color:rgba(0, 0, 0, 0.001) !important;
+         border: 0px rgba(0, 0, 0, 0.001) !important;
+         }
+         .nav-tabs > li {
+         margin-bottom: 0;
+         border-left: none;
+         }
+         /** footer **/
+         .footer {
+         padding: 40px 0px;
+         background-color: #8E44AD;
+         }
+         .footer-nav .nav-item > a {
+         color: #ffffff;
+         }
+         .footer-copyright {
+         color: #ffffff;
+         }
+         .price {
+         color: #8E44AD;
+         font-size: 15px;
+         margin-top: -2px;
+         }
+         .property-info-display {
+         font-size: 15px;
+         margin-top: 12px;
+         margin-bottom: 1px;
+         }
+         /**button**/
+         .input-group-addon {
+         background-color:#8E44AD;
+         border-color: #8E44AD;
+         }
+         .btn-primary, .btn-primary:active, .btn-primary:hover, .btn-primary:focus, .btn-primary.disabled, .btn-primary[disabled]{
+         background-color: #8E44AD;
+         border-color: #FFF;
+         }
+         .panel-default > .panel-heading {
+         background-color: #8E44AD;
+         border-color: #8E44AD;
+         }
+         .panel-default {
+         border-color: #8E44AD;
+         box-shadow:0px;
+         }
+         .panel-title {
+         color: #FFF;
+         }
+         .navbar input[type=text] {
+         background-color: #313146;
+         border-color: transparent;
+         font-size: 12px;
+         color: #eee;
+         border-radius: 0;
+         box-shadow: 0 0;
+         }
+         .navbar input[type=text] {
+         display: inline-block;
+         }
+         /* tables */
+         .table-bordered > tbody > tr > td{
+         border: 1px solid #8E44AD;
+         }
+         .table-bordered > thead > tr > th {
+         border: 1px solid #8E44AD;
+         }
+         .table-bordered {
+         border: 1px solid #8E44AD;
+         }
+         th {
+         background-color: #8E44AD;
+         color: white;
+         } 
+         th > a, th > a:hover, th > a:focus, th > a:active {
+         color: white;
+         } 
+         /*pics display */
+         .property-display {
+         margin-bottom: 25px;
+         }
+
+         div.panel.form-panel div#myTabContent.tab-content div.tab-pane form.form-inline.form-group div.controls select
+         {
+         border:0px;
+         outline:0px;
+         height: 52px !important;
+         min-width:100% !important;
+         }
+         #myTab{
+             position:relative;
+             font-family: 'Open Sans', sans-serif;
+         }
+         .nav-tabs>li>a
+         {
+         color: white;
+         font-weight: 600;
+         }
+         #myTab li.active a{
+         background-color:transparent !important;
+         color: #e95b29;
+         }
+         #myTab li:hover a{
+         background-color:transparent;
+         /*color: black !important;*/
+         font-weight: 600 !important;
+         }
+         #myTabContent select, #myTabContent span, #myTabContent #submit-id-submit{
+             border-radius: 0px;
+         }
+         form.form-inline.form-group input.btn.btn-primary.btn.btn-primary{
+         margin-left:1em;
+         height: 52px !important;
+         width: 6em !important;
+         border: 0px solid;
+         }
+         form.form-inline.form-group input.btn.btn-primary.btn.btn-primary:hover{
+         background-color: none;
+         color: white;
+         }
+         .triangle{
+         margin-left: 3.5em;
+         width: 0;
+         height: 0;
+         border-style: solid;
+         border-width: 0 10px 15px 10px;
+         border-color: transparent transparent #ffffff transparent;s
+         }
+         .panel-wrapper{
+             margin: 0 8%;
+         }
+         .tab-content{
+             padding:0px;
+         }
+         #submit-id-submit{
+             margin-left: 0px;
+         }
+         #myTabContent{
+            position: relative;
+            z-index: 99;
+            padding: 15px;
+            background-color: rgba(0,0,0,0.35);            
+         }
+         #myTabContent form submit{
+             height: 52px !important;
+         }
+         #myTabContent form.form-group{
+             margin-bottom: 0px;
+         }
+         #div_id_max_price span{
+             border:none;
+             width: inherit;
+         }
+         #slct2{
+            padding-right: 0px;
+            padding-left: 7px;
+         }
+         .input-group-addon{
+             width: 1% !important;
+         }
+         #triangle-pointer{
+            margin-bottom: -16px;
+            z-index: 9999;
+            position: relative;
+            margin-left: 51px;
+         }
+         #div_id_category{width:8%!important;}
+         #div_id_a_property{width:14%!important;}
+         #div_id_max_size{width:14%!important;}
+         #div_id_state{width:13%!important;}
+         #div_id_lg{width:21%!important;}
+         #div_id_max_price{width:18%!important;}
+         #submit-id-submit{width:8%!important;}
+         @media screen and (max-width: 1600px){
+             #id_category{
+                 max-width: 200px !important;
+             }            
+             .form-inline .form-control{
+                 width: 100%;
+             }             
+         }
+         @media screen and (max-width: 1365px){
+             #myTabContent form #submit-id-submit, #myTabContent form div.form-group select{
+                 max-height: 4.5em;
+                 font-size: 0.975em;     
+                 margin-left: 0px;
+             }
+             #myTabContent form div.form-group select{
+                 width: 90% !important;
+             }
+         }
+         @media screen and (max-width: 1000px){
+             #myTabContent form #submit-id-submit, #myTabContent form div.form-group select{
+                 max-height: 2em;
+                 font-size: 0.95em;    
+             }             
+                #myTabContent form div.form-group select{
+                    width: 80% !important;
+                }             
+             #myTabContent form .input-group-addon{
+                 border: 0px;
+                 max-height: 2em;                 
+             }             
+         }
+         @media screen and (max-width: 768px){
+             #myTabContent form #submit-id-submit, #myTabContent form div.form-group select{
+                 max-height: none;
+             }
+            #myTabContent .tab-pane form .form-group{
+                width: 100% !important;
+            }             
+             #myTabContent form div.form-group{
+                 margin-bottom: 5px;
+             }             
+             #myTabContent form .input-group-addon{
+                 border: 0px;
+             }             
+             #myTabContent form #submit-id-submit{
+                 margin-left: 0px;
+                 width: 100% !important;
+             }
+             #myTab li a{
+                font-size: 0.85em;
+             }             
+             #div_id_max_size, #div_id_a_property{
+                 width: 100% !important;
+             }
+             .support-header{padding-bottom:0px}
+         }
+         @media screen and (max-width: 620px){
+             #myTab li a{   
+                 padding: 5px;
+             }
+             .panel-wrapper{
+                margin: 0;
+             }
+         }

@@ -1,0 +1,97 @@
+ 
+<style>
+
+    #id_category{
+        width: 400px !important;
+        height: 3em !important;
+    }
+    /*            div.col-md-12 div.panel.form-panel ul#myTab.nav.nav-tabs li.active {
+    background: white;
+    }*/
+    div.panel.form-panel div#myTabContent.tab-content div.tab-pane.fade.active.in form.form-inline.form-group  div.controls select
+    {
+        border:0px;
+        outline:0px;
+        height: 3em !important;
+        min-width:100% !important;
+    }
+    #myTab li a
+    {
+        color: white;
+        font-weight: 600;
+    }
+    #myTab li.active a{
+        background-color:transparent !important;
+    }
+    #myTab li:hover a{
+        background-color:transparent;
+        /*color: black !important;*/
+        font-weight: 600 !important;
+    }
+    div#myTabContent.tab-content
+    {
+        padding-top: 0px !important;
+        padding-left: 0px;
+    }
+    form.form-inline.form-group input.btn.btn-primary.btn.btn-primary{
+        margin-left:1em;
+        height: 3em !important;
+        width: 6em !important;
+        border: 0px solid;
+    }
+    form.form-inline.form-group input.btn.btn-primary.btn.btn-primary:hover{
+        /*background-color:rgba(255, 255, 255,0.04) !important;*/
+        background-color: none;
+        color: white;
+    }
+    .triangle{
+        margin-left: 3em;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 15px 20px 15px;
+        border-color: transparent transparent #ffffff transparent;s
+    }
+</style>
+
+<script type="text/javascript">
+    $().ready(function () {
+        $('#house-move').click(function () {
+            $('#triangle-pointer').animate({
+                'marginLeft': "3em"
+            });
+        });
+        $('#commercial-move').click(function () {
+            $('#triangle-pointer').animate({
+                'marginLeft': "13.5em"
+            });
+        });
+        $('#land-move').click(function () {
+            $('#triangle-pointer').animate({
+                'marginLeft': "24.5em"
+            });
+        });
+    });
+</script>
+
+<div class="col-md-12">
+    <div class="panel form-panel">
+        <ul id="myTab" class="nav nav-tabs">
+            <li id="house-move" class="active"><a href="#house" data-toggle="tab"> House Search </a></li>
+            <li id="commercial-move"><a href="#commercial" data-toggle="tab"> Commercial Search </a></li>
+            <li id="land-move"><a href="#land" data-toggle="tab"> Land/Farms Search </a></li>
+        </ul>
+        <div id='triangle-pointer' class="triangle" style="clear: both;"></div>
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade in active" id="house">
+                HOUSE FORM HERE 
+            </div>
+            <div class="tab-pane fade" id="commercial">
+                COMMERCIAL FORM HERE
+            </div>
+            <div class="tab-pane fade" id="land">
+             LAND FORM GOES HER
+            </div>
+        </div>
+    </div>
+</div>
